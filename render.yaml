@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: designlab-render-gameplay
+    env: static
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false
